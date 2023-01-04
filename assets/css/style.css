@@ -347,7 +347,7 @@ h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
-  font-family: "Satisfy", serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
 }
 
@@ -973,6 +973,7 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
