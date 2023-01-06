@@ -32,6 +32,20 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.category {
+  color: rgb(53, 145, 250);
+}
+
+
+.startdate {
+  color:rgb(53, 145, 250);
+}
+
+
+.enddate {
+  color:rgb(53, 145, 250);
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -653,6 +667,9 @@ section {
   background-color: #428FE7;
 }
 
+.selfintro {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
@@ -756,8 +773,10 @@ section {
 }
 
 .services .description {
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 15px;
   line-height: 28px;
+  text-align: left;
   margin-bottom: 0;
 }
 
