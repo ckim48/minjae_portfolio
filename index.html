@@ -34,6 +34,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <body>
 
@@ -55,8 +56,22 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <h1>Minjae Shim</h1>
-      <h2>I'm a Highschool student</h2>
+      <!-- <h1>Minjae Shim</h1> -->
+      <h2>Welcome to my website!</h2>
+      <div class="wave">
+        <span style="--i:1">M</span>
+        <span style="--i:2">i</span>
+        <span style="--i:3">n</span>
+        <span style="--i:4">j</span>
+        <span style="--i:5">a</span>
+        <span style="--i:6">e</span>
+        <span style="--i:7">&nbsp;</span>
+        <span style="--i:8">S</span>
+        <span style="--i:9">h</span>
+        <span style="--i:10">i</span>
+        <span style="--i:11">m</span>
+      </div>
+      
       <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
     </div>
   </section><!-- End Hero -->
@@ -119,7 +134,7 @@
 
         <div class="row">
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="flip-left" data-aos-duration="1000">
             <div class="icon-box">
               <div class="icon"><i class="fa-solid fa-pen-fancy"></i></div>
               <h4 class="title"><a href="">3D Design</a></h4>
@@ -380,6 +395,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
 
 </body>
 
