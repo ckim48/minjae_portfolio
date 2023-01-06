@@ -126,7 +126,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px;
-  color: #fff;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
@@ -330,14 +330,15 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+/*  background: url("../img/hero-bg.jpg") top right;*/
+  background-color: white;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+  background: white;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -362,11 +363,11 @@ h6 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-family: 'Poppins', sans-serif;
-  color: #fff;
+  color: black;
 }
 
 #hero h2 {
-  color: #eee;
+  color: black;
   margin-bottom: 50px;
   font-size: 13px;
   font-weight: 500;
@@ -381,6 +382,7 @@ h6 {
 }
 
 #hero .btn-scroll i {
+  color:black;
   font-size: 48px;
 }
 
@@ -1398,4 +1400,7 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+.text-black{
+  color:black;
 }
