@@ -1427,7 +1427,7 @@ section {
 }
 @media (max-width: 575px) {
   .wave span {
-    font-size:36px
+    font-size:32px
   }
 }
 @keyframes waviy {
@@ -1457,7 +1457,7 @@ section {
 .swiper-button-next,
 .swiper-button-prev {
     right:10px;
-    
+
     padding: 30px;
     color: #000 !important;
     fill: black !important;
