@@ -1,9 +1,4 @@
-/**
-* Template Name: Laura - v4.10.0
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -237,7 +232,10 @@
     autoplay: {
       delay: 5000,
       disableOnInteraction: false
-    },
+    },  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
@@ -245,9 +243,23 @@
     }
   });
 
+
   /**
    * Initiate Pure Counter 
    */
   new PureCounter();
 
 })()
+
+  function next() {
+      const portfolioLightbox = GLightbox({
+    selector: '.portfolio-lightbox'
+  });
+  portfolioLightbox.nextSlide();
+}
+  function prev() {
+      const portfolioLightbox = GLightbox({
+    selector: '.portfolio-lightbox'
+  });
+  portfolioLightbox.prevSlide();
+}
