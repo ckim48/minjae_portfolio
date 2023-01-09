@@ -1443,3 +1443,32 @@ section {
   color: rgba(255, 255, 255, 0.6);
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
+
+
+
+
+
+@media (max-width: 1600px) {
+.swiper-slide img{
+  height: 600px;
+}
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    right:10px;
+    
+    padding: 30px;
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    right:10px;
+    padding: 30px;
+    color: red !important;
+    fill: red !important;
+    stroke: red !important;
+}
