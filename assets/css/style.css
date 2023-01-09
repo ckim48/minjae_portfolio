@@ -1468,7 +1468,7 @@ section {
 .swiper-button-prev:hover {
     right:10px;
     padding: 30px;
-    color: red !important;
-    fill: red !important;
-    stroke: red !important;
+    color: #838c8f !important;
+    fill: #838c8f !important;
+    stroke: #838c8f !important;
 }
