@@ -87,7 +87,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   height: 80px;
-  background: rgba(202, 202, 202, 0.8);
+  background: rgba(222, 222, 222, 0.9);
 }
 
 #header.header-transparent {
@@ -96,7 +96,7 @@ h6 {
 
 #header.header-scrolled {
   height: 60px;
-  background: rgba(202, 202, 202, 0.8);
+  background: rgba(222, 222, 222, 0.9);
 }
 
 /*--------------------------------------------------------------
@@ -223,7 +223,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: black;
   font-size: 28px;
   cursor: pointer;
   display: none;
